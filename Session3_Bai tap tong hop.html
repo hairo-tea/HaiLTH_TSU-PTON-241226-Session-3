@@ -106,25 +106,36 @@
 
     <form action="https://api.gateaway.com" method="post">
         <p>Is your cat an indoor or outdoor cat?</p>
-        <label for="indoor">
-            <input type="radio" name="indoor" id="indoor">Indoor </label>
-        <label for="outdoor">
-            <input type="radio" name="outdoor" id="Outdoor">Outdoor </label>
+       <div class="indoor">
+            <label for="indoor">
+                <input type="radio" name="indoor" id="indoor">Indoor </label>
+        </div>
+        <div class="Outdoor">
+            <label for="outdoor">
+                <input type="radio" name="outdoor" id="Outdoor">Outdoor </label>
+        </div>
         <p>What's your cat's personality?</p>
-        <label for="Loving">
-            <input type="checkbox" name="personality" id="personality">Loving
-        </label>
-        <label for="Lazy">
-            <input type="checkbox" name="personality" id="personality">Lazy
-        </label>
-        <label for="Energetie">
-            <input type="checkbox" name="personality" id="personality">Energetie
-        </label><br>
-        <label for="url">
-            <input type="url" name="url" id="url" placeholder="cat photo URL" pattern="https://.*" size="20" />
-            <input type="submit" value="Submit">
-        </label>
-    </form>
+        <div class="Loving">
+            <label for="Loving">
+                <input type="checkbox" name="personality" id="personality">Loving
+            </label>
+        </div>
+        <div class="Lazy">
+            <label for="Lazy">
+                <input type="checkbox" name="personality" id="personality">Lazy
+            </label>
+        </div>
+        <div class="Energetie">
+            <label for="Energetie">
+                <input type="checkbox" name="personality" id="personality">Energetie
+            </label><br>
+        </div>
+        <div class="submit">
+            <label for="url">
+                <input type="url" name="url" id="url" placeholder="cat photo URL" pattern="https://.*" size="20" />
+                <input type="submit" value="Submit">
+            </label>
+        </div>
     <p>No Copyright - <a href="https://rikkei.edu.vn/">rikkei.edu.vn</a></p>
 </body>
 
